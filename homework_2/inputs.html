@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><strong>Personal information</strong></legend>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name"> 
+            </div>
+
+            <div>
+              <label for="surname">Surname</label>
+              <input type="text" id="surname" name="surname">
+            </div>
+
+            <div>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+               <label for="phone_number">Phone number</label>
+               <input type="tel" id="phone_number" name="phone_number">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Shipping data</strong></legend>
+            <div>
+               <label for="address">Enter your address</label>
+               <textarea name="address" id="address" rows="3" cols="30"></textarea>
+            </div>
+
+            <div>
+              <form>
+               <label for="post_office">Enter your post office</label>
+               <select name="post_office" id="post_office">
+                 <option value="№1">№1</option>
+                 <option value="№2">№2</option>
+                 <option value="№3">№3</option>
+                 <option value="№4">№4</option>
+                 <option value="№5">№5</option>
+               </select>
+            </form>
+           </div>
+
+           <div>
+              <label for="details">Comment to your order</label>
+              <textarea name="text" id="details" rows="5" cols="25"></textarea>
+           </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Payment details</strong></legend>
+            <div>
+              <label for="number_card">Number card</label>
+              <input type="text" id="number_card" name="number_card">
+            </div>
+
+            <div>
+              <label for="card cvv">CVV</label>
+              <input type="number" id="card cvv" name="card cvv">
+            </div>
+
+            <div>
+              <label for="card_expiration_date">Card expiration date</label>
+              <input type="date" id="card_expiration_date" name="card_expiration_date">
+            </div>
+        </fieldset>
+        <button type="submit">Send this information</button>
+    </form>
+</body>
+</html>

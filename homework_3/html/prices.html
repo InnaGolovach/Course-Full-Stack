@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price</title>
+    <link rel="stylesheet" href="../css/prices.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="header-logo" href="./index.html">
+            <img class="header-logo-img" src="../images/logo_fitness-sports-white.png" alt="logotype_fitness-sports">
+        </a>
+        <nav class="header-navigation-links">
+            <a class="header-navigation-item" href="./services.html">Services</a>
+            <a class="header-navigation-item" href="./trainers.html">Trainers</a>
+            <a class="header-navigation-item" href="./prices.html">Prices</a>
+            <a class="header-navigation-item" href="./about.html">About us</a>
+        </nav>
+
+        <p class="daily-shedule"> <strong>Monday - Saturday:</strong> 9:00 &mdash; 21:00 <br> <strong>Sunday:</strong>
+            10:00 &mdash; 20:00 </p>
+        <button class="header-button" type="button">Contact us</button>
+    </header>
+
+    <main class="main-prices-page">
+        <h2 class="headline-2">Prices</h2>
+        <section class="prices-section">
+            <div class="first-price">
+                <h3 class="first-price-headline">Card <strong>"Stimul Universal"</strong></h3>
+                <p class="first-price-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum nulla culpa odio sed temporibus alias minima illum quod?</p>
+                <p class="first-price-cost"><strong>250$</strong>/month</p>
+                <button class="price-button" type="button">Apply</button>
+            </div>
+
+            <div class="second-price">
+                <h3 class="second-price-headline"> Card <strong>"Stimul Fit"</strong></h3>
+                <p class="second-price-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dignissimos labore voluptatum at quasi earum veniam unde odio neque velit?</p>
+                <p class="second-price-cost"><strong>200$</strong>/month</p>
+                <button class="price-button" type="button">Apply</button>
+            </div>
+
+            <div class="third-price">
+                <h3 class="third-price-headline">Card <strong>"Stimul Family</strong></h3>
+                <p class="third-price-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam alias mollitia!</p>
+                <p class="third-price-cost"><strong>350$</strong>/month</p>
+                <button class="price-button" type="button">Apply</button>
+            </div>
+        </section>
+
+        <div class="order-card-inputs">
+            <h3 class="order-card-headline">Apply for a card right now</h3>
+            <p class="order-card-text">To do this, you just need to enter your details</p>
+            <fieldset>
+                <legend><strong>Personal information</strong></legend>
+                <div class="personal-information-container">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="personal-information-container">
+                    <label for="surname">Surname</label>
+                    <input type="text" name="surname" id="surname">
+                </div>
+
+                <div class="personal-information-container">
+                    <label for="birthday-date">Date of birth</label>
+                    <input type="datetime" name="birthday-date" id="birthday-date">
+                </div>
+
+                <div class="personal-information-container">
+                    <label for="phone">Phone number</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                </fieldset>
+
+                <fieldset class="change-trainers">
+                    <legend><strong>Change your trainers</strong></legend>
+                    <div class="variants">
+                        <label for="woman">Woman</label>
+                        <input type="radio" name="choose" id="choose">
+                
+                        <label for="man">Man</label>
+                        <input type="radio" name="choose" id="choose">
+                
+                        <label for="doesn't-matter">Doesn't matter</label>
+                        <input type="radio" name="choose" id="choose">
+                    </div>
+                </fieldset>
+
+            <fieldset class="change-direction">
+                <legend><strong>Change direction</strong></legend>
+                <div class="variants">
+                    <label for="personal-trainer">Personal trainer</label>
+                    <input type="checkbox" name="personal-trainer" id="personal-trainer">
+            
+                    <label for="trx">trx</label>
+                    <input type="checkbox" name="trx" id="trx">
+            
+                    <label for="fitness">Fitness</label>
+                    <input type="checkbox" name="fitness" id="fitness">
+            
+                    <label for="gym">gym</label>
+                    <input type="checkbox" name="gym" id="gym">
+            
+                    <label for="massage">Massage</label>
+                    <input type="checkbox" name="massage" id="massage">
+            
+                    <label for="spa">spa</label>
+                    <input type="checkbox" name="spa" id="spa">
+                </div>
+            </fieldset>
+
+           
+        </div>
+        <button class="order-card-button" type="submit">Send data</button>
+    </main>
+</body>
+
+</html>

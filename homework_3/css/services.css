@@ -1,0 +1,83 @@
+/* Global */
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/background_services-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.header-logo-img {
+    width: 120px;
+    height: 120px;
+}
+
+.header-navigation-item{
+    color: white;
+    margin-right: 132px;
+}
+
+.header-navigation-item:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.daily-shedule {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.header-button {
+    width: 112px;
+    height: 36px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.header-button:hover {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Main */
+.headline-2 {
+    font-size: 32px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.right-container {
+    padding-top: 68px;
+    text-align: right;
+}
+
+.services-navigation-item {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-right: 140px;
+}
+
+.services-navigation-item:hover {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-right: 140px;
+}
