@@ -1,0 +1,76 @@
+/* Друге і третє завдання */
+section > p {
+    color: white;
+    background-color: rgb(60, 60, 244);
+    font-size: 24px;
+}
+
+div.text-1 {
+    color: brown;
+}
+
+/* Четверте завдання */
+/* Селектор тега */
+p {
+    color: blueviolet;
+}
+
+/* Селектор класу */
+.headline {
+    color: deeppink;
+}
+
+/* Селектор ідентифікатора */
+#text {
+    color: teal;
+}
+
+/* Селектор атрибуту */
+a[href*="article"] {
+    color: lawngreen;
+}
+
+/* Вкладеність селекторів */
+div h2 {
+    color: rgb(65, 214, 162);
+}
+
+div p {
+    color: rgb(218, 133, 133);
+}
+
+/* Дочірні селектори */
+ul > li {
+    color: coral;
+}
+
+ol > li {
+    color: gold;
+}
+
+/* Послідовність селекторів */
+h3 ~ a {
+    color: rgb(100, 213, 175);
+}
+
+/* Тег + клас */
+p.about-us {
+    color: rgb(23, 58, 59);
+    background-color: rgb(208, 124, 64);
+}
+
+p.main-text {
+    color: gray;
+}
+/* Тег + ідентифікатор */
+#main-paragraph {
+    color: rgb(81, 61, 55);
+}
+
+#second-paragraph {
+    color: blue;
+}
+
+#text-4 {
+    color: palevioletred;
+}
